@@ -1,0 +1,25 @@
+{
+  "name": "akram/integration_test",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+
+    }
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "SRC": "src/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "6.0.x-dev"
+  }
+}

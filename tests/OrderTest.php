@@ -19,6 +19,8 @@ class OrderTest extends PHPUnit_Framework_TestCase
         $item=$order->getItems()[0];
         assertInstanceOf(Item::class,$item);
     }
+
+
     /**@test */
     public function Order_must_have_an_editable_status(){
         $order = new Order();
